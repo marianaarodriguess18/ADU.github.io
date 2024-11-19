@@ -33,12 +33,8 @@ header{
     text-transform: uppercase;
     font-weight: 800;
     border-radius: 0 0 12px 12px;
-    display: hidden;
 }
 
-header:hover, header:focus {
-    border: 3px solid var(--borda_botão);
-}
 
 header a{
     text-decoration: none;
