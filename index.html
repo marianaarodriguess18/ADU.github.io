@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Card </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header"> <a href="#header">Persona Card</a> </header>
+    <div class="top-controls">
+        <!-- Botões para ajustar o tamanho da fonte (alinhado à esquerda) -->
+        <div class="left-controls">
+            <button id="decreaseFont" aria-label="Decrease Font">Decrease Font <img src="data/DecreaseFont.png" class="button-icon" alt="Decrease Font"></button>
+            <button id="increaseFont" aria-label="Increase Font">Increase Font <img src="data/IncreaseFont.png" class="button-icon" alt="Increase Font"></button>
+            <button id="speechRecognition" aria-label="Speech Recognition">Speech Recognition <img src="data/Micro.png" class="button-icon" alt="Speech Recognition"></button>
+        </div>
+        
+        <!-- Botão para alternar o idioma (alinhado à direita) -->
+        <div class="right-controls">
+            <button id="switchLang" aria-label="See in English"> See in English <img src="data/World.png" class="button-icon" alt="Switch Language"></button>
+        </div>
+    </div>
+
+    <!-- Caixa de conteúdo principal -->
+    <div class="container">
+        <div class="content">
+            <!-- Imagem de destaque -->
+            <img src="data/imagemPersonaCard.png" class="feature-image" alt="Person with fatigue and pain using the computer">
+            
+            <div class="text-section">
+                <h2 id="title">LIVING WITH FATIGUE AND PAIN</h2>
+                <p id="text">
+                    Lea was on track to become the editor of the magazine she worked for when she started having numbness in her hands and feeling completely fatigued by the middle of the afternoon. She tried medications and exercise and getting enough sleep, but finally she had to make change in her life.
+She found a job where she could work from home, on her own schedule. When she has good days, it's like nothing is wrong. But on bad days, she measures every action so she can make it through the day. Sometime that important editorial meeting is all she can manage. She had to adjust her computer: a new keyboard and trackBall make it easier to type, and a good chair helps her avoid tender muscles.
+The biggest change was learning to write and edit using speech recognition software, Dragon Naturally Speaking. She's lucky: the company understands that it's a real disability. With an invisible disability like fibromyalgia, some people just don't get it.
+                </p>
+            </div>
+        </div>
+
+        <!-- Botão de leitura -->
+        <div class="play-stop-container">
+            <button id="playStopBtn">
+                Read
+                <img id="playStopIcon" src="data/Play.png" class="button-icon" alt="Play/Stop" >
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
